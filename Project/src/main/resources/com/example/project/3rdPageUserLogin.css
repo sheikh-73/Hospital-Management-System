@@ -1,0 +1,75 @@
+.b1
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 50;
+}
+.b1:hover
+{
+-fx-background-color:  #ffffff;
+}
+.b1:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+
+
+.b2
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 25;
+}
+.b2:hover
+{
+-fx-background-color:  #9999ff;
+}
+.b2:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+.b3
+{
+-fx-background-color: translate;
+-fx-background-radius: 25;
+}
+.loginPan
+{
+-fx-background-color:  linear-gradient(to left,#ffffff,#6666ff);
+}
+.pan2
+{
+-fx-background-color:  #b3b3ff;
+}
+
+.pass1
+{
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
+.pass1:hover
+{
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+.pass1:pressed
+{
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+.pass
+{
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
+.pass:hover
+{
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+.pass:pressed
+{
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+

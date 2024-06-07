@@ -1,0 +1,65 @@
+.p1
+{
+-fx-background-color:    #660000;
+-fx-background-radius:  5;
+}
+.p1:hover
+{
+-fx-background-color:   #4d0000;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  5;
+}
+.p1:pressed
+{
+-fx-background-color:    #660000;
+}
+
+
+.p2
+{
+-fx-background-color:   #ffb3b3;
+-fx-background-radius:  5;
+}
+.p2:hover
+{
+-fx-background-color:  	#ff9999;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  5;
+}
+.p2:pressed
+{
+-fx-background-color:   #ffb3b3;
+}
+
+.p3
+{
+-fx-background-color:   #ffb3b3;
+-fx-background-radius:  5;
+}
+.p3:hover
+{
+-fx-background-color:  	#ff9999;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  5;
+}
+.p3:pressed
+{
+-fx-background-color:   #ffb3b3;
+}
+
+.b1
+{
+-fx-background-color:   #ffb3b3;
+-fx-background-radius:  5;
+}
+.b1:hover
+{
+-fx-background-color:  	#ff9999;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  5;
+}
+.b1:pressed
+{
+-fx-background-color:   #ffb3b3;
+}
+

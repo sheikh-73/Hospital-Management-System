@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.Blood">
+   <children>
+      <Pane prefHeight="76.0" prefWidth="800.0" style="-fx-background-color: #ff5050;">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="88.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@create-a-formal-logo-for-e-hospital-service-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="b" layoutX="735.0" layoutY="26.0" mnemonicParsing="false" onAction="#back" styleClass="b1" stylesheets="@10thbloodBnk.css" text="Back" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Label layoutX="309.0" layoutY="24.0" text="Available Blood" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Line endX="74.60003662109375" endY="-7.62939453125E-6" layoutX="391.0" layoutY="141.0" startX="-76.5999755859375" startY="-7.62939453125E-6" />
+      <Pane fx:id="p" layoutX="164.0" layoutY="88.0" prefHeight="401.0" prefWidth="625.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label layoutX="20.0" layoutY="19.0" text="Welcome Back ...">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Label>
+            <Pane layoutX="271.0" layoutY="363.0" prefHeight="30.0" prefWidth="344.0" style="-fx-background-color: #ff5050; -fx-background-radius: 5;">
+               <children>
+                  <Label layoutX="16.0" layoutY="-1.0" prefHeight="29.0" prefWidth="210.0" text="For Emargency Blood (Call)      : " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Narrow Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="emargencyNumber" layoutX="204.0" layoutY="-1.0" prefHeight="30.0" prefWidth="134.0" text="01873022973" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="13.0" layoutY="62.0" prefHeight="27.0" prefWidth="614.0" text=" United Hospital">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Pane layoutX="28.0" layoutY="122.0" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #f5f5f0;">
+               <children>
+                  <Label layoutX="66.0" layoutY="1.0" text="A+">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="93.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot_2023-12-10_221405-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l1" layoutX="26.0" layoutY="9.0" text="12">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="8.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Dot-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="179.0" layoutY="123.0" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #f5f5f0;">
+               <children>
+                  <Label layoutX="70.0" layoutY="1.0" text="A-">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="93.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot_2023-12-10_221405-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l2" layoutX="26.0" layoutY="9.0" text="12">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="8.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Dot-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="180.0" layoutY="202.0" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #f5f5f0;">
+               <children>
+                  <Label layoutX="59.0" layoutY="1.0" text="AB-">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="93.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot_2023-12-10_221405-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l6" layoutX="26.0" layoutY="10.0" text="12">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="8.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Dot-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="330.0" layoutY="125.0" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #f5f5f0;">
+               <children>
+                  <Label layoutX="68.0" layoutY="1.0" text="B+">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="93.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot_2023-12-10_221405-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l3" layoutX="26.0" layoutY="9.0" text="12">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="8.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Dot-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="479.0" layoutY="125.0" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #f5f5f0;">
+               <children>
+                  <Label layoutX="72.0" layoutY="1.0" text="B-">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="93.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot_2023-12-10_221405-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l4" layoutX="26.0" layoutY="9.0" text="12">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="8.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Dot-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="29.0" layoutY="201.0" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #f5f5f0;">
+               <children>
+                  <Label layoutX="54.0" layoutY="1.0" text="AB+">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="93.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot_2023-12-10_221405-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l5" layoutX="26.0" layoutY="9.0" text="12">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="8.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Dot-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="331.0" layoutY="202.0" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #f5f5f0;">
+               <children>
+                  <Label layoutX="64.0" layoutY="1.0" text="O+">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="93.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot_2023-12-10_221405-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l7" layoutX="26.0" layoutY="10.0" text="12">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="8.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Dot-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="479.0" layoutY="203.0" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #f5f5f0;">
+               <children>
+                  <Label layoutX="68.0" layoutY="1.0" text="O-">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="93.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Screenshot_2023-12-10_221405-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l8" layoutX="26.0" layoutY="10.0" text="12">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="8.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Dot-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+      <Pane layoutY="79.0" prefHeight="421.0" prefWidth="152.0" style="-fx-background-color: #ff5050;">
+         <children>
+            <Button fx:id="b1" layoutX="4.0" layoutY="4.0" mnemonicParsing="false" onAction="#home" prefHeight="44.0" prefWidth="144.0" styleClass="p1" stylesheets="@10thbloodBnk.css" text=" Home" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="b3" layoutX="4.0" layoutY="101.0" mnemonicParsing="false" onAction="#donor" prefHeight="44.0" prefWidth="144.0" styleClass="p3" stylesheets="@10thbloodBnk.css" text="     Donors" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="b2" layoutX="4.0" layoutY="52.0" mnemonicParsing="false" onAction="#form" prefHeight="44.0" prefWidth="144.0" styleClass="p2" stylesheets="@10thbloodBnk.css" text="     Request" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <ImageView fitHeight="44.0" fitWidth="69.0" layoutX="11.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screenshot_2023-12-10_235022-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="32.0" layoutX="21.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screenshot_2023-12-10_234658-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="25.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screenshot_2023-12-10_234636-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="p3" layoutX="295.0" layoutY="-280.0" prefHeight="275.0" prefWidth="382.0" style="-fx-background-color: #29293d; -fx-background-radius: 10;">
+         <children>
+            <Label layoutX="14.0" layoutY="68.0" text="Patient Name   : " textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="122.0" layoutY="14.0" text="Information" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Line endX="148.4000244140625" endY="-1.52587890625E-5" layoutX="120.0" layoutY="43.0" startX="-14.79998779296875" startY="-1.52587890625E-5" stroke="WHITE" />
+            <Label layoutX="14.0" layoutY="99.0" text="Phone Number : " textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="130.0" text="Blood Group     : " textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="162.0" text="Problem           : " textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="220.0" text="When and Where : " textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="t1" layoutX="98.0" layoutY="64.0" prefHeight="25.0" prefWidth="203.0" />
+            <TextField fx:id="t2" layoutX="98.0" layoutY="95.0" prefHeight="25.0" prefWidth="203.0" />
+            <TextField fx:id="t3" layoutX="98.0" layoutY="126.0" prefHeight="25.0" prefWidth="203.0" />
+            <TextField fx:id="t4" layoutX="98.0" layoutY="158.0" prefHeight="25.0" prefWidth="203.0" />
+            <TextArea fx:id="T" layoutX="97.0" layoutY="194.0" prefHeight="68.0" prefWidth="203.0" />
+            <Button layoutX="310.0" layoutY="228.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: translate; -fx-background-radius: 5; -fx-border-color: White; -fx-border-radius: 5;" text="Submit" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+.mainP
+{
+-fx-background-color: #3b5998;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10
+{
+-fx-background-color: #3b5998;
+-fx-background-radius : 10;
+}
+
+.p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover, .p7:hover, .p8:hover, .p9:hover, .p10:hover
+{
+-fx-background-color: #5a7abf;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.p1:pressed, .p2:pressed, .p3:pressed, .p4:pressed, .p5:pressed, .p6:pressed, .p7:pressed, .p8:pressed, .p9:pressed, .p10:pressed
+{
+-fx-background-color:  #3b5998;
+}

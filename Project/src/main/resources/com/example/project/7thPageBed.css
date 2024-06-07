@@ -1,0 +1,243 @@
+.p1
+{
+-fx-background-color: #002266;
+}
+.p2
+{
+-fx-background-color:  #002266;
+}
+.All
+{
+-fx-background-color:  linear-gradient(to left,#6666ff,#a64dff);
+-fx-background-radius: 5;
+}
+.All:hover
+{
+-fx-background-color: #9999ff;
+-fx-border-radius:5;
+-fx-border-color:#ffffff;
+}
+.All:pressed
+{
+-fx-background-color:  linear-gradient(to left,#6666ff,#a64dff);
+-fx-border-radius:5;
+-fx-border-color:#ffffff;
+
+}
+.Vip
+{
+-fx-background-color:  linear-gradient(to left,#6666ff,#a64dff);
+-fx-background-radius: 5;
+}
+.Vip:hover
+{
+-fx-background-color:  #9999ff;
+-fx-border-radius:5;
+-fx-border-color:#ffffff;
+}
+.Vip:pressed
+{
+-fx-background-color:  #6666ff;
+-fx-border-radius:5;
+-fx-border-color:#ffffff;
+
+}
+.Mid
+{
+-fx-background-color:  linear-gradient(to left,#6666ff,#a64dff);
+-fx-background-radius: 5;
+}
+.Mid:hover
+{
+-fx-background-color:  #9999ff;
+-fx-border-radius:5;
+-fx-border-color:#ffffff;
+}
+.Mid:pressed
+{
+-fx-background-color:  #6666ff;
+-fx-border-radius:5;
+-fx-border-color:#ffffff;
+}
+.Low
+{
+-fx-background-color: linear-gradient(to left,#6666ff,#a64dff);
+-fx-background-radius: 5;
+}
+.Low:hover
+{
+-fx-background-color:  #9999ff;
+-fx-border-radius:5;
+-fx-border-color:#ffffff;
+}
+.Low:pressed
+{
+-fx-background-color:  #6666ff;
+-fx-border-radius:5;
+-fx-border-color:#ffffff;
+
+}
+.p3
+{
+-fx-background-color:  #002266;
+}
+
+
+.b1
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b1:hover
+{
+-fx-background-color:  #8080ff;
+}
+.b1:pressed
+{
+-fx-background-color:  #6666ff;
+}
+.b2
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b2:hover
+{
+-fx-background-color:  #8080ff;
+}
+.b2:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+.b3
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b3:hover
+{
+-fx-background-color:  #8080ff;
+}
+.b3:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+.b4
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b4:hover
+{
+-fx-background-color:  #8080ff;
+}
+.b4:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+.b5
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b5:hover
+{
+-fx-background-color: #8080ff;
+}
+.b5:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+.b6
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b6:hover
+{
+-fx-background-color: #8080ff;
+}
+.b6:pressed
+{
+-fx-background-color:  #6666ff;
+}
+.b7
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b7:hover
+{
+-fx-background-color:  #8080ff;
+}
+.b7:pressed
+{
+-fx-background-color:  #6666ff;
+}
+.b8
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b8:hover
+{
+-fx-background-color:  #8080ff;
+}
+.b8:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+.b9
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b9:hover
+{
+-fx-background-color:  #8080ff;
+}
+.b9:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+.b10
+{
+-fx-background-color:  #6666ff;
+-fx-background-radius: 5;
+}
+.b10:hover
+{
+-fx-background-color: #8080ff;
+}
+.b10:pressed
+{
+-fx-background-color:  #6666ff;
+}
+
+.bk
+{
+-fx-background-color:  #ffffff;
+-fx-background-radius: 25;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  25;
+}
+.bk:hover
+{
+-fx-background-color:  #ebebe0;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  25;
+}
+.bk:pressed
+{
+-fx-background-color: #ffffff;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  25;
+}
+
+

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.AdminRegister">
+   <children>
+      <Pane layoutY="-2.0" prefHeight="456.0" prefWidth="374.0">
+         <children>
+            <ImageView fitHeight="456.0" fitWidth="414.0" layoutX="-7.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@adminReg1stHalf.png" />
+               </image>
+            </ImageView>
+            <Pane layoutY="1.0" prefHeight="74.0" prefWidth="81.0" style="-fx-background-color: #e6ffff;">
+               <children>
+                  <ImageView fitHeight="74.0" fitWidth="293.0" layoutX="3.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@create-a-formal-logo-for-e-hospital-service-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <ImageView fitHeight="456.0" fitWidth="422.0" layoutX="369.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@adminReg2ndhalf.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="413.0" layoutY="-1.0" prefHeight="528.0" prefWidth="414.0">
+         <children>
+            <Label fx:id="rl" layoutX="117.0" layoutY="59.0" text="Registation" textFill="#00004d">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt5" layoutX="197.0" layoutY="274.0" prefHeight="26.0" prefWidth="201.0" styleClass="txt5" stylesheets="@admin2ndpageReg.css">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txt3" layoutX="196.0" layoutY="214.0" prefHeight="26.0" prefWidth="201.0" styleClass="txt3" stylesheets="@admin2ndpageReg.css">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txt1" layoutX="196.0" layoutY="154.0" prefHeight="26.0" prefWidth="201.0" styleClass="txt7" stylesheets="@admin2ndpageReg.css">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txt2" layoutX="196.0" layoutY="184.0" prefHeight="26.0" prefWidth="201.0" styleClass="txt2" stylesheets="@admin2ndpageReg.css">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txt4" layoutX="197.0" layoutY="244.0" prefHeight="26.0" prefWidth="201.0" styleClass="txt4" stylesheets="@admin2ndpageReg.css">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txt6" layoutX="197.0" layoutY="304.0" prefHeight="26.0" prefWidth="201.0" styleClass="txt6" stylesheets="@admin2ndpageReg.css">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="b1" layoutX="324.0" layoutY="378.0" mnemonicParsing="false" onAction="#done" prefHeight="31.0" prefWidth="72.0" styleClass="b1" stylesheets="@admin2ndpageReg.css" text="Done" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="17.0" />
+               </font>
+            </Button>
+            <Label fx:id="yl" layoutX="71.0" layoutY="306.0" text="Your position        :  ">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="pl" layoutX="70.0" layoutY="339.0" text="Enter a Password  :">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="hl" layoutX="73.0" layoutY="247.0" prefHeight="17.0" prefWidth="118.0" text="Hospital Name     : ">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="ml" layoutX="72.0" layoutY="277.0" prefHeight="17.0" prefWidth="118.0" text="Mobile Number    : ">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="ul" layoutX="74.0" layoutY="219.0" prefHeight="17.0" prefWidth="118.0" text="E-maill                 : ">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="ll" layoutX="72.0" layoutY="188.0" prefHeight="17.0" prefWidth="118.0" text="Last Name            : ">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="fl" layoutX="73.0" layoutY="157.0" prefHeight="17.0" prefWidth="118.0" text="First Name           : ">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="bck" layoutX="299.0" layoutY="-30.0" mnemonicParsing="false" onAction="#back" prefHeight="91.0" prefWidth="89.0" styleClass="bck" stylesheets="@admin2ndpageReg.css" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+               </font>
+            </Button>
+            <Pane layoutX="134.0" layoutY="454.0" prefHeight="74.0" prefWidth="280.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <Label fx:id="l5" layoutX="85.0" layoutY="11.0" prefHeight="22.0" prefWidth="89.0" text="Thank You" textFill="#00004d">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label fx:id="l3" layoutX="155.0" layoutY="419.0" prefHeight="22.0" prefWidth="221.0" text="After Investigation, Sequrity key " textFill="#00004d">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="l1" layoutX="69.0" layoutY="98.0" text="Don't have an account? Create your account, ">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" layoutX="67.0" layoutY="112.0" text=" it takes less then a minute.">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" layoutX="218.0" layoutY="436.0" prefHeight="22.0" prefWidth="98.0" text="will be given. " textFill="#00004d">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="warning" layoutX="205.0" layoutY="362.0" prefHeight="14.0" prefWidth="138.0" textFill="RED">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="txt7" layoutX="199.0" layoutY="335.0" prefHeight="26.0" prefWidth="201.0" styleClass="txt7" stylesheets="@admin2ndpageReg.css" />
+         </children>
+      </Pane>
+      <Pane fx:id="lb" layoutY="454.0" prefHeight="74.0" prefWidth="546.0" styleClass="lb" stylesheets="@admin2ndpageReg.css" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+.user
+{
+         -fx-background-color: translate;
+         -fx-background-radius: 25;
+}
+.user:hover
+{
+         -fx-background-color: linear-gradient(to bottom left,#336699,#ffe6e6);
+         -fx-background-radius: 25;
+}
+.user:pressed
+{
+         -fx-background-color: linear-gradient(to bottom left,#ffe6e6,#3366cc);
+         -fx-background-radius: 25;
+}
+.adminB
+{
+         -fx-background-color: translate;
+         -fx-background-radius: 25;
+}
+.adminB:hover
+{
+          -fx-background-color: linear-gradient(to bottom left,#336699,#ffe6e6);
+          -fx-background-radius: 25;
+}
+ .adminB:pressed
+{
+          -fx-background-color: linear-gradient(to bottom left,#ffe6e6,#3366cc);
+          -fx-background-radius: 25;
+}
+
+.hB
+{
+         -fx-background-color: translate;
+         -fx-background-radius: 25;
+}
+.hB:hover
+{
+         -fx-background-color: linear-gradient(to bottom left,#336699,#ffe6e6);
+         -fx-background-radius: 25;
+}
+.hB:pressed
+{
+         -fx-background-color: linear-gradient(to bottom left,#ffe6e6,#3366cc);
+         -fx-background-radius: 25;
+}
+
+.aboutB
+{
+         -fx-background-color: translate;
+         -fx-background-radius: 25;
+}
+.aboutB:hover
+{
+         -fx-background-color: linear-gradient(to bottom left,#336699,#ffe6e6);
+         -fx-background-radius: 25;
+}
+.aboutB:pressed
+{
+         -fx-background-color: linear-gradient(to bottom left,#ffe6e6,#3366cc);
+         -fx-background-radius: 25;
+}

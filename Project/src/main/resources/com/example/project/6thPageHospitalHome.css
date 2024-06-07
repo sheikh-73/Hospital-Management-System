@@ -1,0 +1,142 @@
+.pan
+{
+-fx-background-color:  linear-gradient(left to right,#6600ff, #944dff);
+}
+
+.pan2
+{
+-fx-background-color: #002266;
+}
+.pan3
+{
+-fx-background-color: #002266;
+}
+.b1
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left, #66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.b1:hover
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#ccf6ff,#0040ff);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+
+.b1:pressed
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.b2
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left, #66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.b2:hover
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#ccf6ff,#0040ff);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+
+.b2:pressed
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.b3
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left, #66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.b3:hover
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#ccf6ff,#0040ff);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+
+.b3:pressed
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.b4
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left, #66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.b4:hover
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#ccf6ff,#0040ff);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+
+.b4:pressed
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.hospitalp1
+{
+-fx-background-radius: 5;
+-fx-background-color:  linear-gradient(to bottom left,#b9f2ff,#66b3ff);
+}
+.profile
+{
+-fx-background-radius: 50;
+-fx-background-color:  linear-gradient(to bottom left,#66b3ff,#0033cc);
+}
+
+ .profile.hover
+ {
+ -fx-background-radius: 50;
+ -fx-border-color: #ffffff;
+ -fx-background-color: #ffffff;
+ -fx-border-radius: 50;
+ }
+.b5
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left, #66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+.b5:hover
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#ccf6ff,#0040ff);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+
+.b5:pressed
+{
+-fx-background-radius: 25;
+-fx-background-color:  linear-gradient(to bottom left,#66b3ff,#0033cc);
+-fx-border-radius: 25;
+-fx-border-color: #002266;
+}
+

@@ -1,0 +1,58 @@
+.mainP
+{
+-fx-background-color:  #990000;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10
+{
+-fx-background-color:  #990000;
+-fx-background-radius : 10;
+}
+
+.p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover, .p7:hover, .p8:hover, .p9:hover, .p10:hover
+{
+-fx-background-color: #660000;
+-fx-border-color:  #ffffff;
+-fx-background-radius : 10;
+-fx-border-radius:  10;
+}
+.p1:pressed, .p2:pressed, .p3:pressed, .p4:pressed, .p5:pressed, .p6:pressed, .p7:pressed, .p8:pressed, .p9:pressed, .p10:pressed
+{
+-fx-background-color:  #990000;
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10, .b11
+{
+-fx-background-color:  #ffffff;
+-fx-background-radius:  10;
+}
+
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover, .b6:hover, .b7:hover, .b8:hover, .b9:hover, .b10:hover, .b11:hover
+{
+-fx-background-color: #dae1f1;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.b1:pressed, .b2:pressed, .b3:pressed, .b4:pressed, .b5:pressed, .b6:pressed, .b7:pressed, .b8:pressed, .b9:pressed, .b10:pressed, .b11:pressed
+{
+-fx-background-color:  #3b5998;
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8, .t9, .t10
+{
+-fx-background-color:  #ffffff;
+-fx-background-radius:  10;
+}
+
+.t1:hover, .t2:hover, .t3:hover, .t4:hover, .t5:hover, .t6:hover, .t7:hover, .t8:hover, .t9:hover, .t10:hover
+{
+-fx-background-color:   #bfbfbf;
+-fx-background-radius:  10;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+
+.t1:pressed, .t2:pressed, .t3:pressed, .t4:pressed, .t5:pressed, .t6:pressed, .t7:pressed, .t8:pressed, .t9:pressed, .t10:pressed
+{
+-fx-background-color:  #ffffff;
+}
