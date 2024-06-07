@@ -1,0 +1,20 @@
+.b
+{
+-fx-background-color: #ffffff;
+-fx-background-radius: 25;
+}
+
+.b:hover
+{
+-fx-background-color: #e6e6ff;
+-fx-background-text-color: #ffffff;
+-fx-border-color: #ccccff;
+-fx-background-radius: 25;
+-fx-border-radius: 25;
+}
+.b:pressed
+{
+-fx-background-color: #ffffff;
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
