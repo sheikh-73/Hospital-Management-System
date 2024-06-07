@@ -1,0 +1,121 @@
+.RegLev
+{
+-fx-background-color: linear-gradient(to bottom left,#ffcccc,#336699);
+
+}
+.Login
+{
+-fx-background-color: #ffffff;
+-fx-background-radius: 25;
+}
+
+.Login:hover
+{
+-fx-background-color: linear-gradient(to bottom left,#ffcccc,#336699);
+-fx-background-text-color: #ffffff;
+-fx-border-color: #ccccff;
+-fx-background-radius: 25;
+-fx-border-radius: 25;
+}
+.Login:pressed
+{
+-fx-background-color: #ffffff;
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
+
+
+.txt1
+{
+-fx-background-radius: 25;
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
+.txt1:hover
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+.txt1:pressed
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+
+.txt2
+{
+-fx-background-radius: 25;
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
+.txt2:hover
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+.txt2:pressed
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+
+.txt3
+{
+-fx-background-radius: 25;
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
+.txt3:hover
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+.txt3:pressed
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+
+.txt4
+{
+-fx-background-radius: 25;
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
+.txt4:hover
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+.txt4:pressed
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+
+.txt5
+{
+-fx-background-radius: 25;
+-fx-border-color: #ccccff;
+-fx-border-radius: 25;
+}
+.txt5:hover
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}
+.txt5:pressed
+{
+-fx-background-radius: 25;
+-fx-border-color: #6666ff;
+-fx-border-radius: 25;
+}

@@ -1,0 +1,44 @@
+.log
+{
+    -fx-background-color: linear-gradient(to bottom left,#e6ffff,#336699);
+    -fx-background-radius: 25;
+    -fx-border-color: #ffffff;
+    -fx-border-color: 25;
+
+}
+.log:hover
+{
+         -fx-background-color: linear-gradient(to top,#e6ffff,#336699);
+         -fx-background-radius: 25;
+}
+.log:pressed
+{
+         -fx-background-color: linear-gradient(to top,#e6ffff,#336699);
+         -fx-background-radius: 25;
+}
+.reg
+{
+    -fx-background-color: linear-gradient(to bottom left,#e6ffff,#336699);
+    -fx-background-radius: 25;
+
+}
+.reg:hover
+{
+         -fx-background-color: linear-gradient(to top,#e6ffff,#336699);
+         -fx-background-radius: 25;
+         -fx-border-color: #ccccff;
+         -fx-border-color: 25;
+}
+.reg:pressed
+{
+         -fx-background-color: linear-gradient(to top,#e6ffff,#336699);
+         -fx-background-radius: 25;
+}
+.p1
+{
+-fx-background-color: linear-gradient(to top,#e6ffff,#336699);
+}
+
+-fx-border-color: #ccccff;
+-fx-background-radius: 25;
+-fx-border-radius: 25;

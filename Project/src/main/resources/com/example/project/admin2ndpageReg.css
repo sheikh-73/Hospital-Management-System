@@ -1,0 +1,130 @@
+.lb
+{
+-fx-background-color: #00004d;
+}
+.b1
+{
+-fx-background-color: #00004d;
+-fx-background-radius: 25;
+}
+.b1:hover
+{
+-fx-background-color:  #24478f;
+}
+.b1:pressed
+{
+-fx-background-color: #00004d;
+}
+.bck
+{
+-fx-background-color: #00004d;
+-fx-background-radius: 50;
+}
+.bck:hover
+{
+-fx-background-color:  #24478f;
+}
+.bck:pressed
+{
+-fx-background-color: #00004d;
+}
+
+.txt1
+{
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+.txt1:hover
+{
+-fx-background-color: linear-gradient(to bottom left,#00004d,#99bbff);
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+
+
+.txt2
+{
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+.txt2:hover
+{
+-fx-background-color: linear-gradient(to bottom left,#00004d,#99bbff);
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+
+
+.txt3
+{
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+.txt3:hover
+{
+-fx-background-color: linear-gradient(to bottom left,#00004d,#99bbff);
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+
+.txt4
+{
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+.txt4:hover
+{
+-fx-background-color: linear-gradient(to bottom left,#00004d,#99bbff);
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+
+.txt5
+{
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+.txt5:hover
+{
+-fx-background-color: linear-gradient(to bottom left,#00004d,#99bbff);
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+
+.txt6
+{
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+.txt6:hover
+{
+-fx-background-color: linear-gradient(to bottom left,#00004d,#99bbff);
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+
+.txt7
+{
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}
+.txt7:hover
+{
+-fx-background-color: linear-gradient(to bottom left,#00004d,#99bbff);
+-fx-background-radius: 25;
+-fx-border-color: #00004d;
+-fx-border-radius: 25;
+}

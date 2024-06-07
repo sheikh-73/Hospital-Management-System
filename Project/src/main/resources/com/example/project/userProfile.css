@@ -1,0 +1,19 @@
+.p1
+{
+-fx-background-color: linear-gradient(to bottom left, #99ebff,#6666ff);
+}
+.b
+{
+-fx-background-color:   #6666ff;
+-fx-background-radius:  5;
+}
+.b:hover
+{
+-fx-background-color:  	#8080ff;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  5;
+}
+.b:pressed
+{
+-fx-background-color:   #6666ff;
+}

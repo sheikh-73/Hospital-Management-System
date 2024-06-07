@@ -1,0 +1,55 @@
+.p1
+{
+-fx-background-color: 	  #0099cc;
+}
+.p2,.p3
+{
+-fx-background-color: 	#e6e6ff;
+}
+.b2
+{
+-fx-background-color:  #3366cc;
+-fx-background-radius:  25;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  25;
+}
+.b2:hover
+{
+-fx-background-color:  #2e5cb8;
+}
+.b2:pressed
+{
+-fx-background-color:  #3366cc;
+}
+
+.b1
+{
+-fx-background-color:  #3366cc;
+-fx-background-radius:  25;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  25;
+}
+.b1:hover
+{
+-fx-background-color:  #2e5cb8;
+}
+.b1:pressed
+{
+-fx-background-color:  #3366cc;
+}
+
+.b3
+{
+-fx-background-color:  #3366cc;
+-fx-background-radius:  25;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  25;
+}
+.b3:hover
+{
+-fx-background-color: #2e5cb8;
+}
+.b3:pressed
+{
+-fx-background-color:  #3366cc;
+}

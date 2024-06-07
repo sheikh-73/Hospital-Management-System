@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainL" prefHeight="500.0" prefWidth="600.0" stylesheets="@UserNotification.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.AdminNotification">
+    <children>
+        <Pane fx:id="mainp1" prefHeight="74.0" prefWidth="600.0" styleClass="mainp1" stylesheets="@adminPanel.css">
+            <children>
+                <ImageView fitHeight="74.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@create-a-formal-logo-for-e-hospital-service-removebg-preview.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="b" layoutX="513.0" layoutY="21.0" mnemonicParsing="false" onAction="#profile" prefHeight="33.0" prefWidth="73.0" styleClass="b" stylesheets="@UserNotification.css" text="Profile">
+                    <font>
+                        <Font name="Berlin Sans FB" size="16.0" />
+                    </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+                </Button>
+              <Label layoutX="202.0" layoutY="1.0" prefHeight="48.0" prefWidth="130.0" text="Notifications" textFill="WHITE">
+                  <font>
+                      <Font name="Berlin Sans FB" size="24.0" />
+                  </font>
+              </Label>
+            </children>
+         <effect>
+            <DropShadow />
+         </effect>
+        </Pane>
+        <ScrollPane layoutX="200.0" layoutY="81.0" prefHeight="1010.0" prefWidth="428.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1500.0" prefWidth="386.0" stylesheets="@UserNotification.css">
+                    <children>
+                        <Pane fx:id="p1" layoutX="5.0" layoutY="7.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l1" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="347.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p2" layoutX="5.0" layoutY="70.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l2" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="341.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p3" layoutX="5.0" layoutY="133.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l3" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="350.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p4" layoutX="5.0" layoutY="196.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l4" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="346.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p5" layoutX="5.0" layoutY="259.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l5" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="344.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p6" layoutX="4.0" layoutY="322.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l6" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="346.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p7" layoutX="5.0" layoutY="385.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l7" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="343.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p8" layoutX="6.0" layoutY="448.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l8" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="343.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p9" layoutX="6.0" layoutY="511.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l9" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="344.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p10" layoutX="6.0" layoutY="574.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l10" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="346.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p11" layoutX="6.0" layoutY="637.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l11" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="340.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p12" layoutX="4.0" layoutY="704.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l12" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="345.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p13" layoutX="6.0" layoutY="763.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l13" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="345.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p14" layoutX="6.0" layoutY="826.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l14" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="348.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="p15" layoutX="6.0" layoutY="889.0" prefHeight="58.0" prefWidth="375.0" styleClass="p1" stylesheets="@UserNotification.css">
+                            <children>
+                                <Label fx:id="l15" layoutX="13.0" layoutY="20.0" prefHeight="16.0" prefWidth="341.0">
+                                    <font>
+                                        <Font name="Arial" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                    </children>
+                </AnchorPane>
+            </content>
+         <effect>
+            <DropShadow />
+         </effect>
+        </ScrollPane>
+        <Label layoutX="203.0" layoutY="42.0" text="All" textFill="WHITE">
+            <font>
+                <Font name="Berlin Sans FB" size="17.0" />
+            </font>
+        </Label>
+      <Pane fx:id="mainp2" layoutY="80.0" prefHeight="422.0" prefWidth="194.0" styleClass="mainp2" stylesheets="@adminPanel.css">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Pane layoutX="3.0" layoutY="7.0" prefHeight="48.0" prefWidth="188.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutY="10.0" prefHeight="48.0" prefWidth="184.0" style="-fx-alignment: center; -fx-background-radius: 5;" text="Control Panel">
+                     <font>
+                        <Font name="Berlin Sans FB" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="48.0" layoutY="-10.0" prefHeight="48.0" prefWidth="90.0" style="-fx-alignment: center; -fx-background-radius: 5;" text="Admin">
+                     <font>
+                        <Font name="Berlin Sans FB" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button fx:id="hb" layoutX="3.0" layoutY="72.0" mnemonicParsing="false" onAction="#bed" prefHeight="48.0" prefWidth="188.0" style="-fx-alignment: center;" styleClass="hb" stylesheets="@adminPanel.css" text="         Hospital Bed ">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="ab" layoutX="3.0" layoutY="127.0" mnemonicParsing="false" onAction="#chat" prefHeight="48.0" prefWidth="188.0" style="-fx-alignment: center;" styleClass="ab" stylesheets="@adminPanel.css" text="       Appoinment">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="bb" layoutX="3.0" layoutY="182.0" mnemonicParsing="false" onAction="#bloodBank" prefHeight="48.0" prefWidth="188.0" style="-fx-alignment: center;" styleClass="bb" stylesheets="@adminPanel.css" text="       Blood BANK">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <ImageView fitHeight="41.0" fitWidth="46.0" layoutX="21.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2101722-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="41.0" layoutX="26.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@OIP__2_-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="31.0" layoutX="31.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@OIP__3_-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="17.0" layoutY="352.0" text="© E-service" textFill="WHITE" />
+            <Label layoutX="97.0" layoutY="352.0" text="by team Falcon" textFill="WHITE" />
+            <Line endX="76.90000915527344" endY="17.0" layoutX="10.0" layoutY="353.0" startX="76.90000915527344" stroke="WHITE" />
+            <Label layoutX="9.0" layoutY="382.0" text="Terms and Conditions" textFill="WHITE" />
+            <Label layoutX="143.0" layoutY="383.0" text="Privacy" textFill="#ffecec" />
+            <Line endX="76.90000915527344" endY="17.0" layoutX="57.0" layoutY="384.0" startX="76.90000915527344" stroke="WHITE" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

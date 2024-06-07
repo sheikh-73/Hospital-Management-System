@@ -1,0 +1,14 @@
+Plot 15 Rd No 71, Dhaka 1212
+09666-710666
+
+VIP-Suite 30000
+Standard-Suite 20000
+Deluxe-Single 13000
+Luxury-Single 11500
+Standard-Single 10000
+Cardiac 7000
+Double-Bed(per) 5500
+Ward(9-Bed) 4000
+Ward(4-Bed) 4000
+Oncology 3500
+

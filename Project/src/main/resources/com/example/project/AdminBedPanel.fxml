@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.AdminBedPanel">
+    <children>
+        <Pane fx:id="mainP" prefHeight="74.0" prefWidth="600.0" styleClass="mainP" stylesheets="@BedAdminPanel.css">
+            <children>
+                <ImageView fitHeight="74.0" fitWidth="80.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@create-a-formal-logo-for-e-hospital-service-removebg-preview.png" />
+                    </image>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </ImageView>
+                <Label layoutX="232.0" layoutY="24.0" text="Hospital Bed" textFill="WHITE">
+                    <font>
+                        <Font name="Berlin Sans FB" size="25.0" />
+                    </font>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </Label>
+                <Button fx:id="b1" layoutX="494.0" layoutY="21.0" mnemonicParsing="false" onAction="#back" prefHeight="29.0" prefWidth="81.0" styleClass="b1" stylesheets="@BedAdminPanel.css" text="Back">
+                    <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                    </font>
+                    <effect>
+                        <DropShadow />
+                    </effect></Button>
+            </children>
+        </Pane>
+        <ScrollPane layoutY="74.0" prefHeight="526.0" prefWidth="600.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2172.0" prefWidth="591.0">
+                    <children>
+                        <Pane fx:id="p1" layoutX="7.0" layoutY="7.0" prefHeight="82.0" prefWidth="573.0" styleClass="p1" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l1" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r1" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="304.0" layoutY="49.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="t1" layoutX="480.0" layoutY="9.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t10" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font></TextField>
+                                <Button fx:id="b2" layoutX="507.0" layoutY="47.0" mnemonicParsing="false" onAction="#bb1" styleClass="b2" stylesheets="@BedAdminPanel.css" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p2" layoutX="7.0" layoutY="98.0" prefHeight="82.0" prefWidth="573.0" styleClass="p2" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l2" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r2" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="#fcfcfc">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="t2" layoutX="481.0" layoutY="9.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t2" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font></TextField>
+                                <Button fx:id="b3" layoutX="507.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb2" styleClass="b3" stylesheets="@BedAdminPanel.css" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="304.0" layoutY="48.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p3" layoutX="7.0" layoutY="189.0" prefHeight="82.0" prefWidth="573.0" styleClass="p3" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l3" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r3" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="#fafafa">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="b4" layoutX="507.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb3" styleClass="b4" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <TextField fx:id="t3" layoutX="480.0" layoutY="8.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t3" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="305.0" layoutY="50.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p4" layoutX="6.0" layoutY="280.0" prefHeight="82.0" prefWidth="573.0" styleClass="p4" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l4" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="#f7f7f7">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r4" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="b5" layoutX="506.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb4" styleClass="b5" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <TextField fx:id="t4" layoutX="480.0" layoutY="9.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t4" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="305.0" layoutY="49.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p5" layoutX="7.0" layoutY="370.0" prefHeight="82.0" prefWidth="573.0" styleClass="p5" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l5" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="#ececec">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r5" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="b6" layoutX="507.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb5" styleClass="b6" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <TextField fx:id="t5" layoutX="480.0" layoutY="8.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t5" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="305.0" layoutY="49.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p6" layoutX="7.0" layoutY="460.0" prefHeight="82.0" prefWidth="573.0" styleClass="p6" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l6" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r6" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="b7" layoutX="506.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb6" styleClass="b7" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <TextField fx:id="t6" layoutX="479.0" layoutY="8.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t6" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="305.0" layoutY="49.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p7" layoutX="7.0" layoutY="550.0" prefHeight="82.0" prefWidth="573.0" styleClass="p7" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l7" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="#e4e4e4">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r7" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="b8" layoutX="505.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb7" styleClass="b8" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <TextField fx:id="t7" layoutX="479.0" layoutY="9.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t7" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="305.0" layoutY="50.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p8" layoutX="8.0" layoutY="640.0" prefHeight="82.0" prefWidth="573.0" styleClass="p8" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l8" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r8" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="b9" layoutX="506.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb8" styleClass="b9" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <TextField fx:id="t8" layoutX="480.0" layoutY="9.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t8" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="304.0" layoutY="47.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p9" layoutX="7.0" layoutY="730.0" prefHeight="82.0" prefWidth="573.0" styleClass="p9" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l9" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="#f4f4f4">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r9" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="b10" layoutX="506.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb9" styleClass="b10" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <TextField fx:id="t9" layoutX="480.0" layoutY="9.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t9" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="305.0" layoutY="47.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                        <Pane fx:id="p10" layoutX="7.0" layoutY="821.0" prefHeight="82.0" prefWidth="573.0" styleClass="p10" stylesheets="@BedAdminPanel.css">
+                            <children>
+                                <Label fx:id="l10" layoutX="140.0" layoutY="14.0" text="Genaral Ward" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="11.0" layoutY="11.0" text="Bed Name      : " textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="9.0" layoutY="44.0" prefHeight="21.0" prefWidth="131.0" text="Rent per Day  :" textFill="#f7f7f7">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="r10" layoutX="141.0" layoutY="48.0" text="700 /-" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="313.0" layoutY="11.0" prefHeight="21.0" prefWidth="165.0" text="New Rent per Day  :" textFill="WHITE">
+                                    <font>
+                                        <Font name="Arial Bold" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="b11" layoutX="506.0" layoutY="45.0" mnemonicParsing="false" onAction="#bb10" styleClass="b11" text="Confirm">
+                                    <effect>
+                                        <DropShadow />
+                                    </effect></Button>
+                                <TextField fx:id="t10" layoutX="480.0" layoutY="9.0" prefHeight="21.0" prefWidth="86.0" promptText="BDT" styleClass="t10" stylesheets="@BedAdminPanel.css">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </TextField>
+                                <Line endX="-23.799957275390625" endY="24.599990844726562" layoutX="306.0" layoutY="49.0" startX="-23.79998779296875" startY="-40.9999885559082" stroke="WHITE" />
+                            </children>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Pane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,116 @@
+.homelebel1
+{
+-fx-background-color: linear-gradient(to bottom left,#ffcccc,#336699);
+}
+
+.reg
+{
+-fx-background-color:  linear-gradient(to bottom left,#336699,#ffcccc);
+-fx-background-radius: 25;
+}
+.reg:hover
+{
+-fx-background-color:  linear-gradient(to bottom left,#6699cc,#ffe6e6);
+}
+.reg:pressed
+{
+-fx-background-color:  linear-gradient(to bottom left,#336699,#ffcccc);
+}
+
+.login
+{
+-fx-background-color:  linear-gradient(to bottom left,#336699,#ffcccc);
+-fx-background-radius: 25;
+}
+.login:hover
+{
+-fx-background-color:  linear-gradient(to bottom left,#6699cc,#ffe6e6);
+}
+
+.ab
+{
+-fx-background-color:  linear-gradient(to bottom left,#336699,#ffcccc);
+-fx-background-radius: 25;
+}
+.ab:hover
+{
+-fx-background-color:  linear-gradient(to bottom left,#6699cc,#ffe6e6);
+}
+
+.hp
+{
+-fx-background-color:  linear-gradient(to bottom left,#336699,#ffcccc);
+-fx-background-radius: 25;
+}
+.hp:hover
+{
+-fx-background-color:  linear-gradient(to bottom left,#6699cc,#ffe6e6);
+}
+
+.admin
+{
+-fx-background-color:  linear-gradient(to bottom left,#336699,#ffcccc);
+-fx-background-radius: 25;
+}
+.admin:hover
+{
+-fx-background-color:  linear-gradient(to bottom left,#6699cc,#ffe6e6);
+}
+
+.homelebel2
+{
+-fx-background-color: linear-gradient(to bottom left,#ffcccc,#336699);
+}
+
+.txtf
+{
+-fx-background-color: #ffffff;
+-fx-background-radius: 25;
+}
+.txtf:pressed
+{
+-fx-background-color: #f2f2f2;
+}
+
+.src
+{
+-fx-background-color: #ffffff;
+-fx-background-radius: 25;
+}
+.src:pressed
+{
+-fx-background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b1
+{
+-fx-background-color:  translate;
+-fx-background-radius: 360%;
+  -fx-background-color: linear-gradient(to bottom left,#336699,#ffe6e6);
+         -fx-background-radius: 25;
+}
+.b1:hover
+{
+-fx-background-color:  #80d4ff;
+}
+.b1:pressed
+{
+-fx-background-color:  #ff9999;
+}

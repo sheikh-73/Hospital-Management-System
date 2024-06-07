@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pan2" prefHeight="500.0" prefWidth="800.0" styleClass="pan2" stylesheets="@6thPageHospitalHome.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.HospitalFront">
+   <children>
+      <ImageView fitHeight="520.0" fitWidth="620.0" layoutX="-2.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@HospitalHome.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="pan" layoutX="556.0" prefHeight="466.0" prefWidth="255.0" styleClass="pan" stylesheets="@6thPageHospitalHome.css">
+         <children>
+            <Button fx:id="b3" layoutX="28.0" layoutY="297.0" mnemonicParsing="false" onAction="#blood" prefHeight="44.0" prefWidth="151.0" styleClass="b3" stylesheets="@6thPageHospitalHome.css" text="Blood" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="b2" layoutX="28.0" layoutY="244.0" mnemonicParsing="false" onAction="#doctor" prefHeight="44.0" prefWidth="151.0" styleClass="b2" stylesheets="@6thPageHospitalHome.css" text="Doctors" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="b1" layoutX="28.0" layoutY="191.0" mnemonicParsing="false" onAction="#bed" prefHeight="44.0" prefWidth="151.0" styleClass="b1" stylesheets="@6thPageHospitalHome.css" text="Beds" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Button>
+            <Pane fx:id="pan3" layoutX="1.0" layoutY="472.0" prefHeight="28.0" prefWidth="67.0" styleClass="pan3" stylesheets="@6thPageHospitalHome.css" />
+            <Pane fx:id="hospitalP1" layoutX="-171.0" layoutY="77.0" prefHeight="88.0" prefWidth="414.0" styleClass="hospitalp1" stylesheets="@6thPageHospitalHome.css">
+               <children>
+                  <Label fx:id="l1" layoutX="6.0" layoutY="8.0" prefHeight="27.0" prefWidth="403.0" style="-fx-alignment: center;" text="United Hospital Limited">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="place" layoutX="14.0" layoutY="35.0" prefHeight="17.0" prefWidth="393.0" style="-fx-alignment: center;" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mobile" layoutX="217.0" layoutY="66.0" prefHeight="17.0" prefWidth="192.0" style="-fx-alignment: center;" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Button fx:id="profile" layoutX="155.0" layoutY="15.0" mnemonicParsing="false" onAction="#pro" prefHeight="38.0" prefWidth="88.0" styleClass="profile" stylesheets="@6thPageHospitalHome.css" text="      Profile" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="162.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@personIcon-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="b5" layoutX="80.0" layoutY="20.0" mnemonicParsing="false" onAction="#chat" stylesheets="@6thPageHospitalHome.css" text="Chat" textFill="#fffdfd">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="b4" />
+                  <String fx:value="b5" />
+               </styleClass>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="b4" layoutX="742.0" layoutY="462.0" mnemonicParsing="false" onAction="#back" styleClass="b4" stylesheets="@6thPageHospitalHome.css" text="Back" textFill="#fffdfd">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

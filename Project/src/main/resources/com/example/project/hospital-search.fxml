@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.HospitalSearch">
+   <children>
+      <Pane fx:id="pan" layoutY="-1.0" prefHeight="507.0" prefWidth="370.0" styleClass="pan" stylesheets="@5thPageSearchHome.css">
+         <children>
+            <TextField fx:id="txt" layoutX="14.0" layoutY="71.0" prefHeight="32.0" prefWidth="275.0" promptText="Search Hospital Name or Location" styleClass="txt" stylesheets="@5thPageSearchHome.css">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@create-a-formal-logo-for-e-hospital-service-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="b1" layoutX="302.0" layoutY="61.0" mnemonicParsing="false" onAction="#search" prefHeight="51.0" prefWidth="54.0" styleClass="b1" stylesheets="@5thPageSearchHome.css" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Narrow" size="14.0" />
+               </font>
+            </Button>
+            <ScrollPane fx:id="sbar" layoutX="-1.0" layoutY="121.0" prefHeight="559.0" prefWidth="342.0" styleClass="sbar" stylesheets="@5thPageSearchHome.css">
+               <content>
+                  <AnchorPane prefHeight="723.0" prefWidth="343.0">
+                     <children>
+                        <Pane prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb1" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" onAction="#b1" prefHeight="40.0" prefWidth="325.0" styleClass="srb1" stylesheets="@5thPageSearchHome.css" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="14.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="41.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb2" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" onAction="#b2" prefHeight="40.0" prefWidth="325.0" styleClass="srb2" stylesheets="@5thPageSearchHome.css" text="Dhanmondi General And Kidney Hospital Limited" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="83.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb3" layoutX="-1.0" mnemonicParsing="false" onAction="#b3" prefHeight="40.0" prefWidth="325.0" styleClass="srb3" stylesheets="@5thPageSearchHome.css" text="Ispahani Islamia Eye Institute and Hospital" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="122.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb4" layoutX="-1.0" layoutY="2.0" mnemonicParsing="false" onAction="#b4" prefHeight="40.0" prefWidth="325.0" styleClass="srb4" stylesheets="@5thPageSearchHome.css" text="LABAID Specialized Hospita" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="165.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb5" layoutX="-2.0" mnemonicParsing="false" onAction="#b5" prefHeight="40.0" prefWidth="325.0" styleClass="srb6" stylesheets="@5thPageSearchHome.css" text="Dhaka Medical College" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="205.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb6" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" onAction="#b6" prefHeight="40.0" prefWidth="325.0" styleClass="srb7" stylesheets="@5thPageSearchHome.css" text="Sheikh Mujib Medical University Hospital" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="247.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb7" layoutX="-2.0" mnemonicParsing="false" onAction="#b7" prefHeight="40.0" prefWidth="325.0" styleClass="srb7" stylesheets="@5thPageSearchHome.css" text="BIRDEM General Hospita" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="288.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb8" layoutX="-1.0" mnemonicParsing="false" onAction="#b8" prefHeight="40.0" prefWidth="325.0" styleClass="srb8" stylesheets="@5thPageSearchHome.css" text="United Hospital Limited" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="329.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb9" layoutX="-2.0" mnemonicParsing="false" onAction="#b9" prefHeight="40.0" prefWidth="325.0" styleClass="srb9" stylesheets="@5thPageSearchHome.css" text="Ibn Sina Hospital" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="369.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb10" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" onAction="#b10" prefHeight="40.0" prefWidth="325.0" styleClass="srb10" stylesheets="@5thPageSearchHome.css" text="BIRDEM General Hospita" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="411.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb11" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" onAction="#b11" prefHeight="40.0" prefWidth="325.0" styleClass="srb10" stylesheets="@5thPageSearchHome.css" text="Square Hospital" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="453.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb12" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" onAction="#b12" prefHeight="40.0" prefWidth="325.0" styleClass="srb10" stylesheets="@5thPageSearchHome.css" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="495.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb13" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" onAction="#b13" prefHeight="40.0" prefWidth="325.0" styleClass="srb10" stylesheets="@5thPageSearchHome.css" textFill="WHITE">
+                                 <font>
+                                    <Font name="Berlin Sans FB" size="12.0" />
+                                 </font></Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="537.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Pane prefHeight="41.0" prefWidth="323.0">
+                                 <children>
+                                    <Button fx:id="srb14" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="325.0" styleClass="srb10" stylesheets="@5thPageSearchHome.css" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="579.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb15" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="325.0" styleClass="srb10" stylesheets="@5thPageSearchHome.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="621.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb16" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="325.0" styleClass="srb10" stylesheets="@5thPageSearchHome.css" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="663.0" prefHeight="41.0" prefWidth="323.0">
+                           <children>
+                              <Button fx:id="srb17" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="325.0" styleClass="srb10" stylesheets="@5thPageSearchHome.css" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <ImageView fitHeight="32.0" fitWidth="28.0" layoutX="315.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@src.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="344.0" layoutY="-3.0" prefHeight="507.0" prefWidth="459.0">
+         <children>
+            <ImageView fitHeight="507.0" fitWidth="474.0" layoutX="13.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@SrcHomePic.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

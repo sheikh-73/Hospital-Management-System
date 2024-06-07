@@ -1,0 +1,144 @@
+.mainL
+{
+-fx-background-color: #3b5998;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, p8, .p9, .p10, .p11, .p12, .p13, .p14, .p15
+{
+-fx-background-color: #ffffff;
+-fx-background-radius: 10;
+}
+
+.p1:hover, .p2:hover, .p3, .p4, .p5, .p6, .p7, p8, .p9, .p10, .p11, .p12, .p13, .p14, .p15
+{
+-fx-background-color: #f0f5f5;
+-fx-background-radius: 10;
+-fx-border-color: #ffffff;
+-fx-border-radius: 10;
+}
+.b
+{
+-fx-background-color:  #ffffff;
+-fx-background-radius:  25;
+}
+.b:hover
+{
+-fx-background-color:  #f0f5f5;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  25;
+}
+.b:pressed
+{
+-fx-background-color:   #ffffff;
+}
+.b1
+{
+-fx-background-color:  #3b5998;
+-fx-background-radius:  10;
+}
+.b1:hover
+{
+-fx-background-color:  	#476bb8;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.b1:pressed
+{
+-fx-background-color:   #3b5998;
+}
+
+.b2
+{
+-fx-background-color:  #3b5998;
+-fx-background-radius:  10;
+}
+.b2:hover
+{
+-fx-background-color:  	#476bb8;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.b3:pressed
+{
+-fx-background-color:   #3b5998;
+}
+
+.b3
+{
+-fx-background-color:  #3b5998;
+-fx-background-radius:  10;
+}
+.b3:hover
+{
+-fx-background-color:  	#476bb8;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.b3:pressed
+{
+-fx-background-color:   #3b5998;
+}
+
+.b4
+{
+-fx-background-color:  #3b5998;
+-fx-background-radius:  10;
+}
+.b4:hover
+{
+-fx-background-color:  	#476bb8;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.b4:pressed
+{
+-fx-background-color:   #3b5998;
+}
+
+.b5
+{
+-fx-background-color:  #3b5998;
+-fx-background-radius:  10;
+}
+.b5:hover
+{
+-fx-background-color:  	#476bb8;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.b5:pressed
+{
+-fx-background-color:   #3b5998;
+}
+
+.b6
+{
+-fx-background-color:  #3b5998;
+-fx-background-radius:  10;
+}
+.b6:hover
+{
+-fx-background-color:  	#476bb8;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.b6:pressed
+{
+-fx-background-color:   #3b5998;
+}
+
+.b7
+{
+-fx-background-color:  #3b5998;
+-fx-background-radius:  10;
+}
+.b7:hover
+{
+-fx-background-color:  	#476bb8;
+-fx-border-color:  #ffffff;
+-fx-border-radius:  10;
+}
+.b7:pressed
+{
+-fx-background-color:   #3b5998;
+}

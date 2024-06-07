@@ -1,0 +1,41 @@
+.p1
+{
+-fx-background-color: #3b5998;
+}
+.p2
+{
+-fx-background-color: #3b5998;
+}
+
+.t1, .t2, .t3, .t4
+{
+-fx-background-color: #ffffff;
+-fx-background-radius: 25;
+}
+.t1:hover, .t2:hover, .t3:hover, .t4:hover
+{
+-fx-background-color: #f0f5f5;
+-fx-background-radius: 25;
+-fx-border-color: #ffffff;
+-fx-border-radius: 25;
+}
+
+.b1, .b2
+{
+-fx-background-color: #ffffff;
+-fx-background-radius: 25;
+}
+
+.b1:hover, .b2:hover
+{
+-fx-background-color: #b6c4e2;
+-fx-background-radius: 25;
+-fx-border-color: #ffffff;
+-fx-border-radius: 25;
+}
+
+.b1:pressed, .b2:pressed
+{
+-fx-background-color: #ffffff;
+-fx-background-radius: 25;
+}

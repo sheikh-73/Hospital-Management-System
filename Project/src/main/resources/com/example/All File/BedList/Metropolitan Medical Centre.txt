@@ -1,0 +1,10 @@
+VIP-Suite 27000BDT
+Standard-Suite 22000BDT
+Deluxe-Single 13500BDT
+Luxury-Single 12500BDT
+Standard-Single 10000BDT
+Cardiac 7500BDT
+Double-Bed(per) 5500BDT
+Ward(9-Bed) 40000BDT
+Ward(4-Bed) 4000BDT
+Oncology 3500BDT

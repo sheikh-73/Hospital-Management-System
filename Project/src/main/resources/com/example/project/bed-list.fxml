@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.BedList">
+   <children>
+      <Pane fx:id="p1" layoutX="-5.0" prefHeight="500.0" prefWidth="202.0" styleClass="p1" stylesheets="@7thPageBed.css">
+         <children>
+            <Button fx:id="All" layoutX="7.0" layoutY="94.0" mnemonicParsing="false" onAction="#all" prefHeight="42.0" prefWidth="187.0" styleClass="All" stylesheets="@7thPageBed.css" text="All" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button fx:id="Vip" layoutX="7.0" layoutY="143.0" mnemonicParsing="false" onAction="#vip" prefHeight="42.0" prefWidth="187.0" styleClass="Vip" stylesheets="@7thPageBed.css" text="VIP" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button fx:id="Mid" layoutX="7.0" layoutY="192.0" mnemonicParsing="false" onAction="#mid" prefHeight="42.0" prefWidth="187.0" styleClass="Mid" stylesheets="@7thPageBed.css" text="Mid" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button fx:id="Low" layoutX="7.0" layoutY="241.0" mnemonicParsing="false" onAction="#low" prefHeight="42.0" prefWidth="187.0" styleClass="Low" stylesheets="@7thPageBed.css" text="Low" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <ImageView fitHeight="82.0" fitWidth="95.0" layoutX="4.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@create-a-formal-logo-for-e-hospital-service-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="6.0" layoutY="273.0" prefHeight="228.0" prefWidth="195.0">
+               <children>
+                  <Label layoutX="24.0" layoutY="29.0" prefHeight="17.0" prefWidth="161.0" text="&quot;Our team aims to ensure " textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="46.0" prefHeight="17.0" prefWidth="161.0" text="that patients' relatives are" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="65.0" prefHeight="17.0" prefWidth="172.0" text="supported during their stay" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="27.0" layoutY="84.0" prefHeight="17.0" prefWidth="151.0" text="with us in a safe, clean " textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="21.0" layoutY="102.0" prefHeight="17.0" prefWidth="172.0" text="and friendly environment.&quot;" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="174.0" text="© E-service" textFill="WHITE" />
+                  <Label layoutX="102.0" layoutY="174.0" text="by team Falcon" textFill="#fafafa" />
+                  <Label layoutX="10.0" layoutY="196.0" text="Terms and Conditions" textFill="WHITE" />
+                  <Label layoutX="145.0" layoutY="198.0" prefHeight="17.0" prefWidth="47.0" text="Privacy" textFill="WHITE" />
+                  <Line endX="82.69998168945312" endY="16.999969482421875" layoutX="10.0" layoutY="175.0" startX="82.70001220703125" startY="-3.0517578125E-5" stroke="WHITE" />
+                  <Line endX="82.69998168945312" endY="16.999969482421875" layoutX="53.0" layoutY="197.0" startX="82.70001220703125" startY="-3.0517578125E-5" stroke="WHITE" />
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="192.0" prefHeight="500.0" prefWidth="499.0">
+         <children>
+            <Pane fx:id="p2" layoutX="1.0" prefHeight="93.0" prefWidth="499.0" styleClass="p2" stylesheets="@7thPageBed.css">
+               <children>
+                  <Label layoutX="37.0" layoutY="34.0" prefHeight="26.0" prefWidth="317.0" text="Quality Care Close To Home." textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Button fx:id="bk" layoutX="413.0" layoutY="28.0" mnemonicParsing="false" onAction="#back" prefHeight="33.0" prefWidth="71.0" styleClass="bk" stylesheets="@7thPageBed.css" text="Back">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+               </children></Pane>
+            <ScrollPane fx:id="s1" layoutX="13.0" layoutY="100.0" prefHeight="494.0" prefWidth="488.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="494.0" styleClass="p3" stylesheets="@7thPageBed.css">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="10.0" layoutY="13.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Pane layoutX="19.0" layoutY="19.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="b1" layoutX="-2.0" layoutY="114.0" mnemonicParsing="false" onAction="#bb1" prefHeight="35.0" prefWidth="200.0" styleClass="b1" stylesheets="@7thPageBed.css" text="VIP SUITE                                     " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                              <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="-1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@16552021000.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="245.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Pane layoutX="251.0" layoutY="17.0" prefHeight="146.0" prefWidth="202.0">
+                           <children>
+                              <Button fx:id="b2" layoutX="1.0" layoutY="115.0" mnemonicParsing="false" onAction="#bb2" prefHeight="35.0" prefWidth="202.0" styleClass="b2" stylesheets="@7thPageBed.css" text="PRINCE SUITE                              " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                              <ImageView fitHeight="115.0" fitWidth="202.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@16552018070.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="12.0" layoutY="191.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Pane fx:id="p3" layoutX="20.0" layoutY="194.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@16552015952.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="b3" layoutY="117.0" mnemonicParsing="false" onAction="#bb3" prefHeight="35.0" prefWidth="200.0" styleClass="b3" stylesheets="@7thPageBed.css" text="GENERAL                                     " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="245.0" layoutY="191.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Pane layoutX="255.0" layoutY="197.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="b4" layoutX="-2.0" layoutY="113.0" mnemonicParsing="false" onAction="#bb4" prefHeight="35.0" prefWidth="200.0" styleClass="b4" stylesheets="@7thPageBed.css" text="LIFE JACKET                              " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                              <ImageView fitHeight="111.0" fitWidth="202.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Screenshot 2023-12-13 041456.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="10.0" layoutY="379.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Pane layoutX="18.0" layoutY="382.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="125.0" fitWidth="200.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@R (1).jpg" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="b5" layoutY="116.0" mnemonicParsing="false" onAction="#bb5" prefHeight="35.0" prefWidth="200.0" styleClass="b5" stylesheets="@7thPageBed.css" text="ICU                                              " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="245.0" layoutY="379.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="10.0" layoutY="565.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="244.0" layoutY="565.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="10.0" layoutY="754.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="160.0" layoutX="246.0" layoutY="752.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-width: 10; -fx-arc-height: 10;" width="215.0">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Rectangle>
+                        <Pane layoutX="18.0" layoutY="572.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@16552017531.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="b7" layoutY="113.0" mnemonicParsing="false" onAction="#bb7" prefHeight="35.0" prefWidth="200.0" styleClass="b8" stylesheets="@7thPageBed.css" text="TWIN SHARING                            " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Pane layoutX="253.0" layoutY="385.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@16552018941.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="b6" layoutY="113.0" mnemonicParsing="false" onAction="#bb6" prefHeight="35.0" prefWidth="200.0" styleClass="b6" stylesheets="@7thPageBed.css" text="QUEEN SUITE                              " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Pane layoutX="251.0" layoutY="571.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@16552019520.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="b8" layoutY="114.0" mnemonicParsing="false" onAction="#bb8" prefHeight="35.0" prefWidth="200.0" styleClass="b9" stylesheets="@7thPageBed.css" text="SINGLEN CLASSIC                      " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Pane layoutX="18.0" layoutY="760.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@16552016968.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="b9" layoutY="113.0" mnemonicParsing="false" onAction="#bb9" prefHeight="35.0" prefWidth="200.0" styleClass="b9" stylesheets="@7thPageBed.css" text="KING SUITE                                  " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                        <Pane layoutX="254.0" layoutY="759.0" prefHeight="150.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@16552021000.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="b10" layoutY="113.0" mnemonicParsing="false" onAction="#bb10" prefHeight="35.0" prefWidth="200.0" styleClass="b10" stylesheets="@7thPageBed.css" text="DELUXE SINGLE                          " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </content>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ScrollPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

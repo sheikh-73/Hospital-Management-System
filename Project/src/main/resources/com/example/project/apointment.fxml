@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.DoctorAppoinment">
+   <children>
+      <ImageView fitHeight="519.0" fitWidth="741.0" layoutX="62.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20231210_205213.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="p" layoutX="12.0" layoutY="74.0" prefHeight="286.0" prefWidth="396.0" style="-fx-background-color: transplant; -fx-background-radius: 25;">
+         <children>
+            <Label layoutX="57.0" layoutY="30.0" text="Patient Full Name  : ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="t1" layoutX="187.0" layoutY="25.0" prefHeight="25.0" prefWidth="208.0" promptText="Full Name" style="-fx-background-radius: 5;">
+               <font>
+                  <Font name="Arial Narrow" size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="57.0" layoutY="77.0" text="Patient Mobile        :  ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="t2" layoutX="187.0" layoutY="73.0" prefHeight="25.0" prefWidth="208.0" promptText="Mobile Number" style="-fx-background-radius: 5;">
+               <font>
+                  <Font name="Arial Narrow" size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="57.0" layoutY="119.0" text="Date                          : ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="t3" layoutX="187.0" layoutY="116.0" prefHeight="25.0" prefWidth="208.0" promptText="MM/DD/YEAR" style="-fx-background-radius: 5;">
+               <font>
+                  <Font name="Arial Narrow" size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="56.0" layoutY="190.0" text="Problem                  : ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="T" layoutX="187.0" layoutY="188.0" prefHeight="93.0" prefWidth="208.0" promptText="Write Your Problem">
+               <font>
+                  <Font name="Arial Narrow" size="13.0" />
+               </font>
+            </TextArea>
+            <Pane fx:id="p1" layoutX="-16.0" layoutY="-75.0" prefHeight="318.0" prefWidth="66.0" styleClass="p2" stylesheets="@9thPageAppnmt.css">
+               <children>
+                  <ImageView fitHeight="76.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@create-a-formal-logo-for-e-hospital-service-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="p3" layoutX="504.0" layoutY="-288.0" prefHeight="286.0" prefWidth="258.0" style="-fx-background-color: #0099cc; -fx-background-radius: 5;">
+         <children>
+            <Label layoutX="3.0" layoutY="51.0" text="Patient Full Name     : " textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="l1" layoutX="140.0" layoutY="45.0" prefHeight="27.0" prefWidth="100.0" text="Mohammad Rafi" textFill="WHITE">
+               <font>
+                  <Font name="Arial Narrow" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="81.0" prefHeight="16.0" prefWidth="140.0" text="Mobile Number          : " textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" layoutX="140.0" layoutY="76.0" prefHeight="27.0" prefWidth="118.0" text="01873022973" textFill="WHITE">
+               <font>
+                  <Font name="Arial Narrow" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="117.0" text="Date (DD/MM/YEAR) : " textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="l3" layoutX="141.0" layoutY="112.0" prefHeight="27.0" prefWidth="118.0" text="20/20/24" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="153.0" prefHeight="16.0" prefWidth="133.0" text="Doctor Name             : " textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" layoutX="140.0" layoutY="148.0" prefHeight="27.0" prefWidth="119.0" text="Alvina Aiza" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="190.0" prefHeight="16.0" prefWidth="133.0" text="Fee                               : " textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="l5" layoutX="140.0" layoutY="184.0" prefHeight="27.0" prefWidth="118.0" text="700" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="b3" layoutX="96.0" layoutY="233.0" mnemonicParsing="false" onAction="#submit" styleClass="b3" stylesheets="@9thPageAppnmt.css" text="submit" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="78.0" layoutY="14.0" text="Confirmation" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <Line endX="54.800048828125" layoutX="144.0" layoutY="36.0" startX="-73.79998779296875" startY="1.52587890625E-5" stroke="WHITE" />
+         </children>
+      </Pane>
+      <Button fx:id="b2" layoutX="327.0" layoutY="399.0" mnemonicParsing="false" onAction="#done" styleClass="b2" stylesheets="@9thPageAppnmt.css" text="Done" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Button>
+      <Pane fx:id="p4" layoutX="-8.0" layoutY="461.0" prefHeight="43.0" prefWidth="70.0" styleClass="p2" stylesheets="@9thPageAppnmt.css" />
+      <Label layoutX="349.0" layoutY="22.0" text="Apointment" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Line endX="66.763671875" endY="-1.1444091796875E-5" layoutX="413.0" layoutY="55.0" startX="-72.60003662109375" startY="-1.1444091796875E-5" />
+      <Button fx:id="b1" layoutX="737.0" layoutY="20.0" mnemonicParsing="false" onAction="#back" styleClass="b1" stylesheets="@9thPageAppnmt.css" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Button>
+      <Pane fx:id="p2" layoutX="-4.0" layoutY="318.0" prefHeight="145.0" prefWidth="66.0" styleClass="p1" stylesheets="@9thPageAppnmt.css" />
+   </children>
+</AnchorPane>
